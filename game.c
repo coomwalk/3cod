@@ -1,9 +1,11 @@
 /*#include "stdio.h"
 #include "time.h"
 #include "stdlib.h"
+#include "locele.h"
 int main()
 {
 srand(time(NULL));
+setlocale(LC_CTYPE, "Russian");
 int x=rand()%(1000+1), k=0, y;
  printf("%d\n", x);
  do
