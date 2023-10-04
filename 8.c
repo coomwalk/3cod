@@ -1,4 +1,4 @@
-/*#include "stdio.h"
+#include "stdio.h"
 #include "locale.h"
 int main()
 {
@@ -13,4 +13,4 @@ int main()
     if (sum==n) printf("Число совершенное");
     else printf("Число не совершенное");
     return 0;
-}*/
+}
